@@ -2,24 +2,14 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "GYM Reel",
-    category: "Instagram Reel",
+    title: "My Best Edit",
+    category: "Video Editing",
     video: "/project.mp4",
   },
   {
-    title: "Ganesh reel Edit",
-    category: "Brand Promotion",
+    title: "Creative Promotional Edit",
+    category: "Promotional Video",
     video: "/project2.mp4",
-  },
-  {
-    title: "Orientation day reel",
-    category: "Instagram reel",
-    video: "/project3.mp4",
-  },
-  {
-    title: "Ai Edit",
-    category: "Short Form",
-    video: "/project4.mp4",
   },
 ];
 
@@ -27,7 +17,7 @@ export default function Portfolio() {
   return (
     <section className="section portfolio" id="work">
       <div className="section-heading">
-        <p className="eyebrow"></p>
+        <p className="eyebrow">SELECTED WORK</p>
 
         <h2>
           MY <span>PROJECTS.</span>
@@ -42,7 +32,7 @@ export default function Portfolio() {
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: index * 0.1 }}
+            transition={{ duration: 0.5 }}
           >
             <div className="video-wrapper">
               <video
