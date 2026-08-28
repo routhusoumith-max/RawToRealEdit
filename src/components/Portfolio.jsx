@@ -7,9 +7,9 @@ const projects = [
     video: "/project.mp4",
   },
   {
-    title: "Creative Promotional Edit",
+    title: "Creative Edit",
     category: "Promotional Video",
-    video: "/project2.mp4",
+    video: "/project4.mp4",
   },
 ];
 
